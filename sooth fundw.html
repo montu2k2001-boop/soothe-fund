@@ -1,0 +1,243 @@
+fundwise/
+│
+├── index.html
+├── funds.html
+├── about.html
+├── contact.html
+└── style.css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FundWise - Invest Smart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FundWise</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="funds.html">Funds</a><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Funds - FundWise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FundWise</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="funds.html" class="active">Funds</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Top Investment Funds</h2>
+    <div class="fund-list">
+      <div class="fund-card">
+        <h3>Growth Fund A</h3>
+        <p>High-risk, high-return equity fund.</p>
+        <p><strong>1 Yr Return:</strong> 12.8%</p>
+      </div>
+      <div class="fund-card">
+        <h3>Balanced Fund B</h3>
+        <p>Blend of equity & debt for steady growth.</p>
+        <p><strong>1 Yr Return:</strong> 8.6%</p>
+      </div>
+      <div class="fund-card">
+        <h3>Safe Income Fund C</h3>
+        <p>Low-risk debt fund ideal for beginners.</p>
+        <p><strong>1 Yr Return:</strong> 5.2%</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 FundWise | All Rights Reserved</p>
+  </footer>
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - FundWise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FundWise</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="funds.html">Funds</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>About FundWise</h2>
+    <p>
+      FundWise is an independent investment platform helping individuals
+      make informed financial decisions. We simplify investing by providing
+      easy access to top mutual funds and SIP plans.
+    </p>
+    <p>
+      Our mission is to make wealth creation accessible, transparent, and
+      secure for everyone.
+    </p>
+  </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - FundWise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FundWise</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="funds.html">Funds</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 FundWise | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
+
+  <footer>
+    <p>© 2025 FundWise | All Rights Reserved</p>
+  </footer>body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background: #004aad;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #eaf2ff;
+}
+
+.btn {
+  display: inline-block;
+  background: #004aad;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.fund-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fund-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 260px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .fund-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+</body>
+</html>
+
+</html>
+
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Invest Smart, Grow Wealth</h2>
+    <p>Discover the best performing mutual funds and SIP plans in one place.</p>
+    <a href="funds.html" class="btn">Explore Funds</a>
+  </section>
+
+  <footer>
+    <p>© 2025 FundWise | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
